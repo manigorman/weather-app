@@ -65,8 +65,8 @@
 				C5CD3EC52742C5CE001E54FD /* Supporting Files */,
 				C5CD3EC42742C5AA001E54FD /* Models */,
 				C5CD3EC22742C574001E54FD /* Controllers */,
-				C5CD3EBC2742C2D1001E54FD /* Info.plist */,
 				C5CD3EC32742C587001E54FD /* Views */,
+				C5CD3EBC2742C2D1001E54FD /* Info.plist */,
 			);
 			path = "weather-app";
 			sourceTree = "<group>";
