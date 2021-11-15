@@ -9,9 +9,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var weatherIconImageView: UIImageView!
+    @IBOutlet weak var cityLabel: UILabel!
+    @IBOutlet weak var temperatureLabel: UILabel!
+    @IBOutlet weak var feelsLikeTemperatureLabel: UILabel!
+    
+    let networkWeatherManager = NetworkWeatherManager()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        networkWeatherManager.fetchCurrentWeather(forCity: "London")
     }
 
 
