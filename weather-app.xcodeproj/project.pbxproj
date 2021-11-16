@@ -47,6 +47,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C500243127442C27008E06AD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C5CD3EC62742C627001E54FD /* ViewController+alertController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		C5CD3EA22742C2D1001E54FD = {
 			isa = PBXGroup;
 			children = (
@@ -66,10 +74,11 @@
 		C5CD3EAD2742C2D1001E54FD /* weather-app */ = {
 			isa = PBXGroup;
 			children = (
-				C5CD3EC52742C5CE001E54FD /* Supporting Files */,
-				C5CD3EC42742C5AA001E54FD /* Models */,
 				C5CD3EC22742C574001E54FD /* Controllers */,
+				C500243127442C27008E06AD /* Extensions */,
+				C5CD3EC42742C5AA001E54FD /* Models */,
 				C5CD3EC32742C587001E54FD /* Views */,
+				C5CD3EC52742C5CE001E54FD /* Supporting Files */,
 				C5CD3EBC2742C2D1001E54FD /* Info.plist */,
 			);
 			path = "weather-app";
@@ -79,7 +88,6 @@
 			isa = PBXGroup;
 			children = (
 				C5CD3EB22742C2D1001E54FD /* ViewController.swift */,
-				C5CD3EC62742C627001E54FD /* ViewController+alertController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
